@@ -1,0 +1,8 @@
+models:
+  - name: old_stg_customers
+    description: Staging table for legacy customers
+    columns:
+        - name: id
+          description: "Unique identifier for the customer"
+        - name: name
+          description: "Name of the customer"

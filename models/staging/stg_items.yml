@@ -1,0 +1,10 @@
+models:
+  - name: stg_items
+    description: Items table
+    columns:
+      - name: id
+        description: Unique identifier for each item
+      - name: order_id
+        description: Identifier of the order associated with the item
+      - name: sku
+        description: Stock Keeping Unit code for the item

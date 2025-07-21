@@ -1,0 +1,8 @@
+models:
+  - name: stg_customers
+    description: Description for stg_customers table
+    columns:
+      - name: id
+        description: Unique customer identifier
+      - name: name
+        description: Customer name

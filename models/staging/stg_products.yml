@@ -1,0 +1,14 @@
+models:
+  - name: stg_products
+    description: Products Table
+    columns:
+      - name: sku
+        description: "Stock Keeping Unit, unique identifier for each product"
+      - name: name
+        description: "Name of the product"
+      - name: type
+        description: "Type or category of the product"
+      - name: price
+        description: "Price of the product"
+      - name: description
+        description: "Detailed description of the product"

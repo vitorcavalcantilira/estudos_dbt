@@ -1,6 +1,6 @@
 models:
   - name: stg_customers
-    description: Description for stg_customers table
+    description: Staging table for customer information and profile data.
     columns:
       - name: id
         description: Unique customer identifier

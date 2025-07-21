@@ -1,6 +1,6 @@
 models:
   - name: stg_stores
-    description: Stores Table
+    description: Staging table for store information, containing store details and operational data.
     columns:
       - name: id
         description: Unique identifier for each store.

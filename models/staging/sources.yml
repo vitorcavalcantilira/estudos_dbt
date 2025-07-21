@@ -4,10 +4,10 @@ sources:
   - name: meu_schema
     tables:
       - name: stg_orders
-        # dbt precisa saber qual coluna tem o timestamp de carregamento
+        # dbt needs to know which column has the loading timestamp
         loaded_at_field: et_loaded_at
         
-        # O bloco de freshness com pelo menos um limite
+        # The freshness block with at least one limit
         freshness:
           warn_after: {count: 12, period: hour}
           error_after: {count: 24, period: hour}

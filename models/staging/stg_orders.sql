@@ -5,7 +5,7 @@ with
     )
 
     /*
-    Inserindo colunas para analisar o comando dbt source freshness.
+    Adding columns to analyze the dbt source freshness command.
         ordered_at as et_loaded_at 
         current_timestamp as system_loaded_at
     */

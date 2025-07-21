@@ -1,6 +1,6 @@
 models:
   - name: stg_items
-    description: Items table
+    description: Staging table for order line items, containing individual products within orders.
     columns:
       - name: id
         description: Unique identifier for each item

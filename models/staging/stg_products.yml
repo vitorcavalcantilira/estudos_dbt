@@ -1,6 +1,6 @@
 models:
   - name: stg_products
-    description: Products Table
+    description: Staging table for product catalog data, containing product information and pricing details.
     columns:
       - name: sku
         description: "Stock Keeping Unit, unique identifier for each product"

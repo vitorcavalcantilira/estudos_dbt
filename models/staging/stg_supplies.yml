@@ -1,0 +1,14 @@
+models:
+  - name: stg_supplies
+    description: Staging table for supplies data, containing basic supply information.
+    columns:
+      - name: id
+        description: Unique identifier for each supply item.
+      - name: name
+        description: Name of the supply item.
+      - name: cost
+        description: Cost of the supply item.
+      - name: perishable
+        description: Indicates if the supply item is perishable.
+      - name: sku
+        description: Stock Keeping Unit identifier for the supply item.

@@ -1,0 +1,18 @@
+models:
+  - name: old_stg_orders
+    description: Staging table for legacy orders
+    columns:
+      - name: id
+        description: Unique identifier for each order.
+      - name: customer
+        description: Name or identifier of the customer who placed the order.
+      - name: ordered_at
+        description: Timestamp indicating when the order was placed.
+      - name: store_id
+        description: Identifier for the store where the order was made.
+      - name: subtotal
+        description: Total amount for the order before taxes.
+      - name: tax_paid
+        description: Amount of tax paid for the order.
+      - name: order_total
+        description: Total amount for the order including taxes.

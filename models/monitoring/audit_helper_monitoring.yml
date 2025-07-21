@@ -1,0 +1,26 @@
+models:
+  - name: audit_helper_monitoring
+    description: Audit Helper Monitoring Model
+    columns:
+      - name: validation_monitoring_sk
+        data_tests:
+          - not_null
+          - unique
+      - name: validation_table_name
+        data_tests:
+          - not_null
+      - name: match_analysis_check_date
+        data_tests:
+          - not_null
+      - name: equal_percentage
+        data_tests:
+          - not_null
+      - name: in_legacy_but_not_in_new_percentage
+        data_tests:
+          - not_null
+      - name: in_new_but_not_in_legacy_percentage
+        data_tests:
+          - not_null
+      - name: match_analysis_check_ts
+        data_tests:
+          - not_null

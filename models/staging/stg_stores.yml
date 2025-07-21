@@ -1,0 +1,12 @@
+models:
+  - name: stg_stores
+    description: Staging table for store information, containing store details and operational data.
+    columns:
+      - name: id
+        description: Unique identifier for each store.
+      - name: name
+        description: Name of the store.
+      - name: opened_at
+        description: Date and time when the store was opened.
+      - name: tax_rate
+        description: Tax rate applied at the store.

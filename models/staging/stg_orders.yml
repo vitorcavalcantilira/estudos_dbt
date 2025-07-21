@@ -1,0 +1,20 @@
+models:
+  - name: stg_orders
+    description: This table contains detailed information about orders, including customer, store, subtotal, taxes, total amount, and timestamps.
+    columns:
+      - name: customer
+        description: The unique identifier or name of the customer who placed the order.
+      - name: store_id
+        description: The unique identifier of the store where the order was placed.
+      - name: subtotal
+        description: The total amount for the order before taxes.
+      - name: tax_paid
+        description: The amount of tax paid for the order.
+      - name: order_total
+        description: The total amount of the order including taxes.
+      - name: ordered_at
+        description: The timestamp when the order was placed.
+      - name: et_loaded_at
+        description: The timestamp when the record was loaded into the ETL system.
+      - name: system_loaded_at
+        description: The timestamp when the record was loaded into the current system.
